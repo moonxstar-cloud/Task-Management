@@ -94,23 +94,23 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/20.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/22.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/60.jpg",
                 name: "User 3",
               },
             ],
             comments: 5,
             dueDate: "5 Oct",
-            progress: 0,
+            progress: 10,
           },
           {
             id: "card2",
@@ -120,17 +120,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/9.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/30.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/20.jpg",
                 name: "User 3",
               },
             ],
@@ -146,17 +146,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/5.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/4.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/3.jpg",
                 name: "User 3",
               },
             ],
@@ -172,17 +172,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/55.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/32.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/men/33.jpg",
                 name: "User 3",
               },
             ],
@@ -206,17 +206,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image:"https://randomuser.me/api/portraits/women/41.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/43.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/42.jpg",
                 name: "User 3",
               },
             ],
@@ -232,17 +232,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/3.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/4.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/5.jpg",
                 name: "User 3",
               },
             ],
@@ -258,17 +258,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/7.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/8.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/4.jpg",
                 name: "User 3",
               },
             ],
@@ -292,17 +292,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/10.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/11.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/12.jpg",
                 name: "User 3",
               },
             ],
@@ -318,17 +318,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/13.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/14.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/15.jpg",
                 name: "User 3",
               },
             ],
@@ -352,17 +352,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/16.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/17.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/18.jpg",
                 name: "User 3",
               },
             ],
@@ -386,17 +386,17 @@ export default function KanbanBoard() {
             assignees: [
               {
                 id: "user1",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/19.jpg",
                 name: "User 1",
               },
               {
                 id: "user2",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/20.jpg",
                 name: "User 2",
               },
               {
                 id: "user3",
-                image: "/placeholder.svg?height=32&width=32",
+                image: "https://randomuser.me/api/portraits/women/21.jpg",
                 name: "User 3",
               },
             ],
