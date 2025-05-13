@@ -9,7 +9,13 @@ import {
   Draggable,
   type DropResult,
 } from "@hello-pangea/dnd";
-import { Search, Bell, Mail, Plus, Circle } from "lucide-react";
+import { 
+  Search, 
+  Bell, 
+  Mail, 
+  Plus, 
+  Circle, 
+} from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { AvatarGroup } from "./avatar-group";
 import { Button } from "@/components/ui/button";
@@ -486,12 +492,12 @@ export default function KanbanBoard() {
       assignees: [
         {
           id: "user1",
-          image: "/placeholder.svg?height=32&width=32",
+          image: "https://randomuser.me/api/portraits/women/21.jpg",
           name: "User 1",
         },
         {
           id: "user2",
-          image: "/placeholder.svg?height=32&width=32",
+          image: "https://randomuser.me/api/portraits/men/21.jpg",
           name: "User 2",
         },
       ],
