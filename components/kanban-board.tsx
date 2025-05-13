@@ -15,6 +15,11 @@ import {
   Mail, 
   Plus, 
   Circle, 
+  Clock3 ,
+  Eye,
+  CheckCircle ,
+  Archive,
+  ListTodo
 } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { AvatarGroup } from "./avatar-group";
@@ -89,7 +94,7 @@ export default function KanbanBoard() {
       {
         id: "todo",
         title: "To do",
-        icon: <Circle className="h-4 w-4 text-gray-400" />,
+        icon: <ListTodo className="h-4 w-4 text-gray-500" />,
         colorClass: "bg-gray-100",
         cards: [
           {
@@ -201,8 +206,8 @@ export default function KanbanBoard() {
       {
         id: "inprogress",
         title: "In Progress",
-        icon: <Circle className="h-4 w-4 text-blue-400 fill-blue-400" />,
-        colorClass: "bg-blue-50",
+        icon: <Clock3  className="h-4 w-4 " />,
+        colorClass: "bg-blue-50 bg-blue-100 text-blue-700",
         cards: [
           {
             id: "card4",
@@ -287,8 +292,8 @@ export default function KanbanBoard() {
       {
         id: "review",
         title: "Review",
-        icon: <Circle className="h-4 w-4 text-orange-400 fill-orange-400" />,
-        colorClass: "bg-orange-50",
+        icon: <Eye  className="h-4 w-4 " />,
+        colorClass: "bg-orange-100 text-orange-400 fill-orange-400",
         cards: [
           {
             id: "card7",
@@ -347,8 +352,8 @@ export default function KanbanBoard() {
       {
         id: "completed",
         title: "Completed",
-        icon: <Circle className="h-4 w-4 text-green-400 fill-green-400" />,
-        colorClass: "bg-green-50",
+        icon: <CheckCircle  className="h-4 w-4 " />,
+        colorClass: "bg-green-100 text-green-500 fill-green-400",
         cards: [
           {
             id: "card9",
@@ -381,8 +386,8 @@ export default function KanbanBoard() {
       {
         id: "archive",
         title: "Archive",
-        icon: <Circle className="h-4 w-4 text-gray-400" />,
-        colorClass: "bg-gray-50",
+        icon: <Archive  className="h-4 w-4 " />,
+        colorClass: "bg-gray-50 text-gray-400",
         cards: [
           {
             id: "card10",
@@ -546,12 +551,12 @@ export default function KanbanBoard() {
       assignees: [
         {
           id: "user1",
-          image: "/placeholder.svg?height=32&width=32",
+          image: "https://randomuser.me/api/portraits/men/21.jpg",
           name: "User 1",
         },
         {
           id: "user2",
-          image: "/placeholder.svg?height=32&width=32",
+          image: "https://randomuser.me/api/portraits/women/21.jpg",
           name: "User 2",
         },
       ],
