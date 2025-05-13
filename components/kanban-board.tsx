@@ -207,7 +207,7 @@ export default function KanbanBoard() {
         id: "inprogress",
         title: "In Progress",
         icon: <Clock3  className="h-4 w-4 " />,
-        colorClass: "bg-blue-50 bg-blue-100 text-blue-700",
+        colorClass: " bg-blue-100 text-blue-700",
         cards: [
           {
             id: "card4",
